@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9390645E2BF7B77000470FC5 /* ResizableSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390645D2BF7B77000470FC5 /* ResizableSheetApp.swift */; };
+		939064602BF7B77000470FC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390645F2BF7B77000470FC5 /* ContentView.swift */; };
+		939064622BF7B77100470FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939064612BF7B77100470FC5 /* Assets.xcassets */; };
+		939064652BF7B77100470FC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939064642BF7B77100470FC5 /* Preview Assets.xcassets */; };
+		9390646F2BF7B77100470FC5 /* ResizableSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390646E2BF7B77100470FC5 /* ResizableSheetTests.swift */; };
+		939064792BF7B77100470FC5 /* ResizableSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939064782BF7B77100470FC5 /* ResizableSheetUITests.swift */; };
+		9390647B2BF7B77100470FC5 /* ResizableSheetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390647A2BF7B77100470FC5 /* ResizableSheetUITestsLaunchTests.swift */; };
+		939064892BF7B78000470FC5 /* ResizableSheetWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939064882BF7B78000470FC5 /* ResizableSheetWrapper.swift */; };
+		9390648C2BF7B9E800470FC5 /* ModalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390648B2BF7B9E800470FC5 /* ModalModifier.swift */; };
+		9390648E2BF7BC9700470FC5 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390648D2BF7BC9700470FC5 /* SheetView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9390646B2BF7B77100470FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 939064522BF7B77000470FC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939064592BF7B77000470FC5;
+			remoteInfo = ResizableSheet;
+		};
+		939064752BF7B77100470FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 939064522BF7B77000470FC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939064592BF7B77000470FC5;
+			remoteInfo = ResizableSheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9390645A2BF7B77000470FC5 /* ResizableSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizableSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9390645D2BF7B77000470FC5 /* ResizableSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetApp.swift; sourceTree = "<group>"; };
+		9390645F2BF7B77000470FC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		939064612BF7B77100470FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		939064642BF7B77100470FC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9390646A2BF7B77100470FC5 /* ResizableSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizableSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9390646E2BF7B77100470FC5 /* ResizableSheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetTests.swift; sourceTree = "<group>"; };
+		939064742BF7B77100470FC5 /* ResizableSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizableSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		939064782BF7B77100470FC5 /* ResizableSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetUITests.swift; sourceTree = "<group>"; };
+		9390647A2BF7B77100470FC5 /* ResizableSheetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		939064882BF7B78000470FC5 /* ResizableSheetWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetWrapper.swift; sourceTree = "<group>"; };
+		9390648B2BF7B9E800470FC5 /* ModalModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalModifier.swift; sourceTree = "<group>"; };
+		9390648D2BF7BC9700470FC5 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939064572BF7B77000470FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939064672BF7B77100470FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939064712BF7B77100470FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		939064512BF7B77000470FC5 = {
+			isa = PBXGroup;
+			children = (
+				9390645C2BF7B77000470FC5 /* ResizableSheet */,
+				9390646D2BF7B77100470FC5 /* ResizableSheetTests */,
+				939064772BF7B77100470FC5 /* ResizableSheetUITests */,
+				9390645B2BF7B77000470FC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9390645B2BF7B77000470FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9390645A2BF7B77000470FC5 /* ResizableSheet.app */,
+				9390646A2BF7B77100470FC5 /* ResizableSheetTests.xctest */,
+				939064742BF7B77100470FC5 /* ResizableSheetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9390645C2BF7B77000470FC5 /* ResizableSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9390645D2BF7B77000470FC5 /* ResizableSheetApp.swift */,
+				9390645F2BF7B77000470FC5 /* ContentView.swift */,
+				9390648D2BF7BC9700470FC5 /* SheetView.swift */,
+				939064872BF7B77800470FC5 /* Util */,
+				939064612BF7B77100470FC5 /* Assets.xcassets */,
+				939064632BF7B77100470FC5 /* Preview Content */,
+			);
+			path = ResizableSheet;
+			sourceTree = "<group>";
+		};
+		939064632BF7B77100470FC5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				939064642BF7B77100470FC5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9390646D2BF7B77100470FC5 /* ResizableSheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				9390646E2BF7B77100470FC5 /* ResizableSheetTests.swift */,
+			);
+			path = ResizableSheetTests;
+			sourceTree = "<group>";
+		};
+		939064772BF7B77100470FC5 /* ResizableSheetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				939064782BF7B77100470FC5 /* ResizableSheetUITests.swift */,
+				9390647A2BF7B77100470FC5 /* ResizableSheetUITestsLaunchTests.swift */,
+			);
+			path = ResizableSheetUITests;
+			sourceTree = "<group>";
+		};
+		939064872BF7B77800470FC5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				939064882BF7B78000470FC5 /* ResizableSheetWrapper.swift */,
+				9390648B2BF7B9E800470FC5 /* ModalModifier.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		939064592BF7B77000470FC5 /* ResizableSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9390647E2BF7B77100470FC5 /* Build configuration list for PBXNativeTarget "ResizableSheet" */;
+			buildPhases = (
+				939064562BF7B77000470FC5 /* Sources */,
+				939064572BF7B77000470FC5 /* Frameworks */,
+				939064582BF7B77000470FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizableSheet;
+			productName = ResizableSheet;
+			productReference = 9390645A2BF7B77000470FC5 /* ResizableSheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		939064692BF7B77100470FC5 /* ResizableSheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939064812BF7B77100470FC5 /* Build configuration list for PBXNativeTarget "ResizableSheetTests" */;
+			buildPhases = (
+				939064662BF7B77100470FC5 /* Sources */,
+				939064672BF7B77100470FC5 /* Frameworks */,
+				939064682BF7B77100470FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9390646C2BF7B77100470FC5 /* PBXTargetDependency */,
+			);
+			name = ResizableSheetTests;
+			productName = ResizableSheetTests;
+			productReference = 9390646A2BF7B77100470FC5 /* ResizableSheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		939064732BF7B77100470FC5 /* ResizableSheetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939064842BF7B77100470FC5 /* Build configuration list for PBXNativeTarget "ResizableSheetUITests" */;
+			buildPhases = (
+				939064702BF7B77100470FC5 /* Sources */,
+				939064712BF7B77100470FC5 /* Frameworks */,
+				939064722BF7B77100470FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939064762BF7B77100470FC5 /* PBXTargetDependency */,
+			);
+			name = ResizableSheetUITests;
+			productName = ResizableSheetUITests;
+			productReference = 939064742BF7B77100470FC5 /* ResizableSheetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		939064522BF7B77000470FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					939064592BF7B77000470FC5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					939064692BF7B77100470FC5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 939064592BF7B77000470FC5;
+					};
+					939064732BF7B77100470FC5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 939064592BF7B77000470FC5;
+					};
+				};
+			};
+			buildConfigurationList = 939064552BF7B77000470FC5 /* Build configuration list for PBXProject "ResizableSheet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 939064512BF7B77000470FC5;
+			productRefGroup = 9390645B2BF7B77000470FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939064592BF7B77000470FC5 /* ResizableSheet */,
+				939064692BF7B77100470FC5 /* ResizableSheetTests */,
+				939064732BF7B77100470FC5 /* ResizableSheetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		939064582BF7B77000470FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939064652BF7B77100470FC5 /* Preview Assets.xcassets in Resources */,
+				939064622BF7B77100470FC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939064682BF7B77100470FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939064722BF7B77100470FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		939064562BF7B77000470FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939064892BF7B78000470FC5 /* ResizableSheetWrapper.swift in Sources */,
+				939064602BF7B77000470FC5 /* ContentView.swift in Sources */,
+				9390648E2BF7BC9700470FC5 /* SheetView.swift in Sources */,
+				9390648C2BF7B9E800470FC5 /* ModalModifier.swift in Sources */,
+				9390645E2BF7B77000470FC5 /* ResizableSheetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939064662BF7B77100470FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9390646F2BF7B77100470FC5 /* ResizableSheetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939064702BF7B77100470FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9390647B2BF7B77100470FC5 /* ResizableSheetUITestsLaunchTests.swift in Sources */,
+				939064792BF7B77100470FC5 /* ResizableSheetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9390646C2BF7B77100470FC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939064592BF7B77000470FC5 /* ResizableSheet */;
+			targetProxy = 9390646B2BF7B77100470FC5 /* PBXContainerItemProxy */;
+		};
+		939064762BF7B77100470FC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939064592BF7B77000470FC5 /* ResizableSheet */;
+			targetProxy = 939064752BF7B77100470FC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9390647C2BF7B77100470FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9390647D2BF7B77100470FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9390647F2BF7B77100470FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ResizableSheet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosdebastiani.ResizableSheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		939064802BF7B77100470FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ResizableSheet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosdebastiani.ResizableSheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		939064822BF7B77100470FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosdebastiani.ResizableSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResizableSheet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResizableSheet";
+			};
+			name = Debug;
+		};
+		939064832BF7B77100470FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosdebastiani.ResizableSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResizableSheet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResizableSheet";
+			};
+			name = Release;
+		};
+		939064852BF7B77100470FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosdebastiani.ResizableSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResizableSheet;
+			};
+			name = Debug;
+		};
+		939064862BF7B77100470FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosdebastiani.ResizableSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResizableSheet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		939064552BF7B77000470FC5 /* Build configuration list for PBXProject "ResizableSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390647C2BF7B77100470FC5 /* Debug */,
+				9390647D2BF7B77100470FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9390647E2BF7B77100470FC5 /* Build configuration list for PBXNativeTarget "ResizableSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390647F2BF7B77100470FC5 /* Debug */,
+				939064802BF7B77100470FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939064812BF7B77100470FC5 /* Build configuration list for PBXNativeTarget "ResizableSheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939064822BF7B77100470FC5 /* Debug */,
+				939064832BF7B77100470FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939064842BF7B77100470FC5 /* Build configuration list for PBXNativeTarget "ResizableSheetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939064852BF7B77100470FC5 /* Debug */,
+				939064862BF7B77100470FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 939064522BF7B77000470FC5 /* Project object */;
+}
